@@ -1,0 +1,23 @@
+{
+    "name": "lifesouth/PatternLock",
+    "homepage": "http://github.com/steffan/PatternLock",
+    "description": "Javascript pattern lock",
+    "keywords": ["patternlock","pattern"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "steffan\\": "src/"
+        },
+        "files": ["_script/PatternLock.js"]
+    },
+    "extra": {
+    }
+}
